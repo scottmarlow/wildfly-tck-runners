@@ -49,6 +49,11 @@
             <artifactId>jakarta.json-tck-tests-pluggability</artifactId>
             <scope>test</scope>
         </dependency>
+       <dependency>
+            <groupId>jakarta.json</groupId>
+            <artifactId>jakarta.json-tck-common</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -81,7 +86,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <dependenciesToScan>
-                        <dependency>jakarta.json:jakarta.json-tck-tests</dependency>
+                        <dependency>jakarta.json:jakarta.json-tck-tests-pluggability</dependency>
                     </dependenciesToScan>
                     <trimStackTrace>false</trimStackTrace>
                     <failIfNoTests>true</failIfNoTests>
