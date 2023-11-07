@@ -144,6 +144,7 @@
           <forkMode>once</forkMode>
           <dependenciesToScan>
             <dependency>jakarta.json:jakarta.json-tck-tests</dependency>
+            <dependency>jakarta.json:jakarta.json-tck-tests-pluggability</dependency>
           </dependenciesToScan>
           <systemPropertyVariables>
             <arquillian.launch>wildfly-core-profile</arquillian.launch>

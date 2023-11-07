@@ -87,6 +87,7 @@
                 <configuration>
                     <dependenciesToScan>
                         <dependency>jakarta.json:jakarta.json-tck-tests</dependency>
+                        <dependency>jakarta.json:jakarta.json-tck-tests-pluggability</dependency>
                     </dependenciesToScan>
                     <trimStackTrace>false</trimStackTrace>
                     <failIfNoTests>true</failIfNoTests>
