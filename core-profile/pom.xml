@@ -137,6 +137,7 @@
         <module>core-tck</module>
         <module>inject-tck</module>
         <module>jsonp-standalone-tck</module>
+        <module>jsonp-pluggability-tck</module>
         <module>jsonb-standalone-tck</module>
         <module>rest-tck</module>
     </modules>
