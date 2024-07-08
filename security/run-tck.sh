@@ -2,9 +2,10 @@
 
 set -e
 
-TCK_URL=https://download.eclipse.org/jakartaee/security/3.0/jakarta-security-tck-3.0.0.zip
-TCK_ZIP=jakarta-security-tck-3.0.0.zip
-TCK_HOME=security-tck-3.0.0
+#TCK_URL=https://download.eclipse.org/jakartaee/security/3.0/jakarta-security-tck-3.0.0.zip
+TCK_URL=https://www.eclipse.org/downloads/download.php?file=/security/jakartaee10/staged/eftl/jakarta-security-tck-3.0.2.zip
+TCK_ZIP=jakarta-security-tck-3.0.2.zip
+TCK_HOME=security-tck-3.0.2
 TCK_ROOT=$TCK_HOME/tck
 WILDFLY_HOME=wildfly/target/wildfly
 NEW_WILDFLY=servers/new-wildfly
