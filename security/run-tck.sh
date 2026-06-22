@@ -254,7 +254,7 @@ then
 
     echo "Starting WilDFly"
     pushd $JBOSS_HOME/bin 
-    ./standalone.sh -secmgr &
+    ./standalone.sh  &
     sleep 5
 
 	NUM=0
